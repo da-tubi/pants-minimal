@@ -1,6 +1,9 @@
 [GLOBAL]
 pants_version = "2.13.0"
 
+use_deprecated_pex_binary_run_semantics = false
+use_deprecated_directory_cli_args_semantics = false
+
 backend_packages.add = [
   "pants.backend.python",
 ]
@@ -9,6 +12,6 @@ backend_packages.add = [
 root_patterns = ["/"]
 
 [python]
-interpreter_constraints = ["==3.8.*"]
+interpreter_constraints = ["==3.8.14"]
 enable_resolves = true
 

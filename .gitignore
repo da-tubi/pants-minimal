@@ -2,4 +2,5 @@
 .pants.d
 __pycache__
 dist/
+.idea/
 
