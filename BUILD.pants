@@ -1,3 +1,4 @@
+# See https://www.pantsbuild.org/docs/python-third-party-dependencies for more info
 python_requirement(
     name="requirements",
     requirements=[
@@ -5,5 +6,6 @@ python_requirement(
     ],
 )
 
+# See https://www.pantsbuild.org/docs/reference-python_sources for more info
 python_sources(name = "sources", sources=["**/*.py"])
 

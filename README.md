@@ -1,6 +1,6 @@
-# Minimal template project for Python projects managed Pants
+# Minimal template project for Python projects using Pants
 
-This is a minimal template project:
+This is a minimal template project using Pants:
 + No subproject
 + Only one fixed set of python dependencies
 + With IDE support
@@ -17,6 +17,7 @@ In this template project, there is only one resolve (a set of python dependencie
 
 And we add `pandas==1.2.4` as an example dependency in [BUILD.pants](BUILD.pants)
 
+Do not forgot to generate the lockfile ([3rdparty/python/default.lock](3rdparty/python/default.lock)) for you own projects.
 ```
 ./pants generate-lockfiles
 ```
