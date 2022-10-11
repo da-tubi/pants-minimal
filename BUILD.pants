@@ -1,0 +1,9 @@
+python_requirement(
+    name="requirements",
+    requirements=[
+        "pandas==1.2.4",
+    ],
+)
+
+python_sources(name = "sources", sources=["**/*.py"])
+
