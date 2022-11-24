@@ -4,13 +4,17 @@
 //
 // --- BEGIN PANTS LOCKFILE METADATA: DO NOT EDIT OR REMOVE ---
 // {
-//   "version": 2,
+//   "version": 3,
 //   "valid_for_interpreter_constraints": [
 //     "CPython==3.8.*"
 //   ],
 //   "generated_with_requirements": [
 //     "pandas==1.2.4"
-//   ]
+//   ],
+//   "manylinux": "manylinux2014",
+//   "requirement_constraints": [],
+//   "only_binary": [],
+//   "no_binary": []
 // }
 // --- END PANTS LOCKFILE METADATA ---
 
@@ -27,44 +31,44 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "91b8d6768a75247026e951dce3b2aac79dc7e78622fc148329135ba189813584",
-              "url": "https://files.pythonhosted.org/packages/aa/a7/92b7d2698d7deabd0b846c3ad487495ef3af1dceac8a1f2b358cd20caecf/numpy-1.23.3-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "f9a909a8bae284d46bbfdefbdd4a262ba19d3bc9921b1e76126b1d21c3c34135",
+              "url": "https://files.pythonhosted.org/packages/0f/3d/25e99f2191cce5029310c41cf9a34b5107d4475477bbce2f6d2e68c1c93b/numpy-1.23.5-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "51bf49c0cd1d52be0a240aa66f3458afc4b95d8993d2d04f0d91fa60c10af6cd",
-              "url": "https://files.pythonhosted.org/packages/0a/88/f4f0c7a982efdf7bf22f283acf6009b29a9cc5835b684a49f8d3a4adb22f/numpy-1.23.3.tar.gz"
+              "hash": "abdde9f795cf292fb9651ed48185503a2ff29be87770c3b8e2a14b0cd7aa16f8",
+              "url": "https://files.pythonhosted.org/packages/25/7b/3b587a62aa54ad7ecf90eabfc77cf78e96d3df1d0e8c31fc534ad3ca6e17/numpy-1.23.5-pp38-pypy38_pp73-macosx_10_9_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "a64403f634e5ffdcd85e0b12c08f04b3080d3e840aef118721021f9b48fc1460",
-              "url": "https://files.pythonhosted.org/packages/24/3e/fbbef2c3a04ed1d237fe4711146f111631d02f5155c1dbeb713005787cf5/numpy-1.23.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "1b1766d6f397c18153d40015ddfc79ddb715cabadc04d2d228d4e5a8bc4ded1a",
+              "url": "https://files.pythonhosted.org/packages/42/38/775b43da55fa7473015eddc9a819571517d9a271a9f8134f68fb9be2f212/numpy-1.23.5.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "22d43376ee0acd547f3149b9ec12eec2f0ca4a6ab2f61753c5b29bb3e795ac4d",
-              "url": "https://files.pythonhosted.org/packages/3b/93/e613ce34c908f3228fa181241ae9505c42a72ffc630af9e5173c2f26f406/numpy-1.23.3-cp38-cp38-macosx_11_0_arm64.whl"
+              "hash": "0aaee12d8883552fadfc41e96b4c82ee7d794949e2a7c3b3a7201e968c7ecab9",
+              "url": "https://files.pythonhosted.org/packages/63/d4/3f0d610a2006434f2b7b2e0c80291368d59b0a03bb3e1911fdb9476232d4/numpy-1.23.5-cp38-cp38-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "17c0e467ade9bda685d5ac7f5fa729d8d3e76b23195471adae2d6a6941bd2c18",
-              "url": "https://files.pythonhosted.org/packages/80/d9/29eb382c47203f3ee7a758eb1e2620daad08c3f74372a752b2965d8d8c7a/numpy-1.23.3-pp38-pypy38_pp73-macosx_10_9_x86_64.whl"
+              "hash": "92c8c1e89a1f5028a4c6d9e3ccbe311b6ba53694811269b992c0b224269e2398",
+              "url": "https://files.pythonhosted.org/packages/bf/d1/1017fe3f5d65c4fe054a793f18f940d913868bb2846a02d3f6244a829a30/numpy-1.23.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "efd9d3abe5774404becdb0748178b48a218f1d8c44e0375475732211ea47c67e",
-              "url": "https://files.pythonhosted.org/packages/d6/e2/bed33bdbf513cd6d3fcb4377792ef1b8aad941da542a191e1e2a98c6621f/numpy-1.23.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "d208a0f8729f3fb790ed18a003f3a57895b989b40ea4dce4717e9cf4af62c6bb",
+              "url": "https://files.pythonhosted.org/packages/c6/4f/63f6f16d3f44a764a3b66c6233e133baf912e198a93e14c39ee991f587d0/numpy-1.23.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "bc6e8da415f359b578b00bcfb1d08411c96e9a97f9e6c7adada554a0812a6cc6",
-              "url": "https://files.pythonhosted.org/packages/e5/0e/c76c8cd19fa0477742e553471373e69f4aeb228b3b18aaac305a66cd5f5b/numpy-1.23.3-cp38-cp38-macosx_10_9_x86_64.whl"
+              "hash": "f063b69b090c9d918f9df0a12116029e274daf0181df392839661c4c7ec9018a",
+              "url": "https://files.pythonhosted.org/packages/d2/55/b9b4bfb9d1d828d7d3192c4059e7b4a7d755ba2e1618089af4be77c152d1/numpy-1.23.5-cp38-cp38-macosx_10_9_x86_64.whl"
             }
           ],
           "project_name": "numpy",
           "requires_dists": [],
           "requires_python": ">=3.8",
-          "version": "1.23.3"
+          "version": "1.23.5"
         },
         {
           "artifacts": [
@@ -125,19 +129,19 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "2c0784747071402c6e99f0bafdb7da0fa22645f06554c7ae06bf6358897e9c91",
-              "url": "https://files.pythonhosted.org/packages/d8/66/309545413162bc8271c73e622499a41cdc37217b499febe26155ff9f93ed/pytz-2022.4-py2.py3-none-any.whl"
+              "hash": "222439474e9c98fced559f1709d89e6c9cbf8d79c794ff3eb9f8800064291427",
+              "url": "https://files.pythonhosted.org/packages/85/ac/92f998fc52a70afd7f6b788142632afb27cd60c8c782d1452b7466603332/pytz-2022.6-py2.py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "48ce799d83b6f8aab2020e369b627446696619e79645419610b9facd909b3174",
-              "url": "https://files.pythonhosted.org/packages/31/da/2d48d3499b59c7f3c5d5e1c79fcee5537c320c8ab7b7a0cd2db578bc34b3/pytz-2022.4.tar.gz"
+              "hash": "e89512406b793ca39f5971bc999cc538ce125c0e51c27941bef4568b460095e2",
+              "url": "https://files.pythonhosted.org/packages/76/63/1be349ff0a44e4795d9712cc0b2d806f5e063d4d34631b71b832fac715a8/pytz-2022.6.tar.gz"
             }
           ],
           "project_name": "pytz",
           "requires_dists": [],
           "requires_python": null,
-          "version": "2022.4"
+          "version": "2022.6"
         },
         {
           "artifacts": [
@@ -162,7 +166,8 @@
     }
   ],
   "path_mappings": {},
-  "pex_version": "2.1.102",
+  "pex_version": "2.1.108",
+  "pip_version": "20.3.4-patched",
   "prefer_older_binary": false,
   "requirements": [
     "pandas==1.2.4"
