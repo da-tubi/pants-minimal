@@ -1,4 +1,4 @@
 import pandas
 
-print(f"Hello with Pandas {pandas.__version__}")
-
+def main():
+    print(f"Hello with Pandas {pandas.__version__}")

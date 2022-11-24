@@ -9,3 +9,6 @@ python_requirement(
 # See https://www.pantsbuild.org/docs/reference-python_sources for more info
 python_sources(name = "sources", sources=["**/*.py"])
 
+pex_binary(name = "pex", 
+  entry_point="hello:main"
+)
