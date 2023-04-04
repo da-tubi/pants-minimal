@@ -9,3 +9,4 @@ def main():
 
     print(f"Hello with Pandas {pandas.__version__}")
 
+main()
