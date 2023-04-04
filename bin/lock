@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ -z $1 ]];then
+    pants generate-lockfiles --resolve=python-default
+else
+    pants generate-lockfiles --resolve=$1
+fi

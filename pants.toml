@@ -1,5 +1,5 @@
 [GLOBAL]
-pants_version = "2.14.0"
+pants_version = "2.15.0"
 
 backend_packages.add = [
   "pants.backend.python",
@@ -9,6 +9,6 @@ backend_packages.add = [
 root_patterns = ["/"]
 
 [python]
-interpreter_constraints = ["==3.8.*"]
+interpreter_constraints = ["==3.9.*"]
 enable_resolves = true
 

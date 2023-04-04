@@ -9,7 +9,7 @@ For demo project with multiple subprojects and dependencies sets, see [pants-pys
 
 ## How to run?
 ```
-./pants run hello.py
+pants run hello.py
 ```
 
 ## Dependency Management
@@ -19,12 +19,12 @@ And we add `pandas==1.2.4` as an example dependency in [BUILD.pants](BUILD.pants
 
 Do not forgot to generate the lockfile ([3rdparty/python/default.lock](3rdparty/python/default.lock)) for you own projects.
 ```
-./pants generate-lockfiles
+pants generate-lockfiles
 ```
 
 ## VSCode/PyCharm Integration
 ```
-./pants export ::
+pants export ::
 ```
 
 The specific python version might be `3.8.14` or others.

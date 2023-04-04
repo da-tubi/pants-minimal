@@ -2,7 +2,7 @@
 python_requirement(
     name="requirements",
     requirements=[
-        "pandas==1.2.4",
+        "pandas==2.0.0",
     ],
 )
 
@@ -12,3 +12,4 @@ python_sources(name = "sources", sources=["**/*.py"])
 pex_binary(name = "pex", 
   entry_point="hello:main"
 )
+
