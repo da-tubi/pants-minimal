@@ -13,3 +13,10 @@ pex_binary(name = "pex",
   entry_point="hello:main"
 )
 
+python_requirement(
+    name="tools",
+    requirements=[
+        "pylint==2.14.5",
+    ],
+    resolve="tools"
+)

@@ -3,12 +3,19 @@ pants_version = "2.16.0"
 
 backend_packages.add = [
   "pants.backend.python",
+  "pants.backend.python.lint.pylint",
 ]
 
 [source]
 root_patterns = ["/"]
 
 [python]
-interpreter_constraints = ["==3.10.*"]
+interpreter_constraints = ["==3.7.*"]
 enable_resolves = true
 
+[python.resolves]
+  tools = "3rdparty/python/tools.lock"
+  python-default = "3rdparty/python/default.lock"
+
+[pylint]
+install_from_resolve = "tools"
