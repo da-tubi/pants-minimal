@@ -7,6 +7,14 @@ This is a minimal template project using Pants:
 
 For demo project with multiple subprojects and dependencies sets, see [pants-pyspark](https://github.com/da-tubi/pants-pyspark).
 
+## How to install Python
+Please use apt or homebrew to install Python on Linux or macOS.
+
+When the specific Python version is not available, you can always install Python via xmake:
+```
+xmake l python.lua 3.10.11
+```
+
 ## How to run?
 ```
 pants run hello.py
