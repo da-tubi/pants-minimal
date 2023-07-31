@@ -12,7 +12,8 @@ Please use apt or homebrew to install Python on Linux or macOS.
 
 When the specific Python version is not available, you can always install Python via xmake:
 ```
-xmake l python.lua 3.10.11
+xmake config --yes
+xmake install python
 ```
 
 ## How to run?

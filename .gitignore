@@ -3,4 +3,7 @@
 __pycache__
 dist/
 .idea/
+.xmake/
+build/
+.vscode/compile_commands.json
 
